@@ -1,0 +1,30 @@
+body html {
+            width: 300px;
+            height: 400px;
+        }
+
+        ul#menu {
+            padding: 0;
+            width: inherit;
+            height:inherit;
+            margin-top:2px;
+        }
+
+            ul#menu li {
+                
+                border-style: solid;
+                border-width: 1px;
+                border-color:aqua;
+                border-left:none;
+                border-right:none;
+                border-top:none;
+                width: inherit;   
+                
+            }
+
+                ul#menu li.list {
+                    list-style:none;
+                    width:auto; 
+                    height:auto;
+                      
+                }
